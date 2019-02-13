@@ -1,0 +1,59 @@
+
+[Clase@] { [Nombre] = Clase1;   
+
+[Atributos] {  
+(+) Identificador : Tipo1 ; 
+@(-) Identificador : Tipo2 ; 
+(#) Identificador;  }
+
+[Metodos]{
+(+) Var1 : Int;
+(-) Var2 : String;
+(#) Var3 : Boolean; }  
+}
+
+[Clase] { 
+[Nombre] = MiClase;   
+
+[Atributos] {  
+(+) Identificador : Tipo1 ; 
+(-) Identificador : Tipo2 ; 
+(#) Identificador; }
+
+[Met@odos]{
+(+) Var3 : Int;	}  
+}
+
+[Clase] { 
+[Nombre] = MiClase1;   	
+[Metodos]{	
+(+) Var3 : Int;	}  
+}
+
+[Clase]{
+[Nombre] = Perro;
+
+[Metodos]{
+(@) ladrar;
+(-) Comer;
+}
+[Atributos]{
+(+) Raza: String;
+(+) Edad : Int;
+}
+}
+
+[CLASE]{
+[Nombre] = Animal;
+[Metodos]{
+(+) 
+Vivir;
+}
+}
+
+
+[Asociacion]{
+
+Perro:Composicion:Animal;
+}
+

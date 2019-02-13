@@ -1,0 +1,27 @@
+
+[Clase]{
+[Nombre] = Perro;
+
+[Metodos]{
+(+) ladrar;
+}
+[Atributos]{
+(+) Raza: String;
+}
+}
+
+[CL A SE]{
+[Metodos]{
+(+) 
+Vivir;
+}
+[Nombre] = Animal;
+[Atributos]{
+(+)vida:int
+}
+}
+
+[Asociacion]{
+Perro:Composicion:Animal;
+}
+

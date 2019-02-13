@@ -1,0 +1,6 @@
+[Clase] { 
+  [Nombre] = <identificador>; 
+  [Atributos]
+  [Metodos] 
+- Privado
+} 
